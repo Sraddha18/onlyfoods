@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.comfortaa {
+  font-family: "Comfortaa", sans-serif;
+}
+.maven {
+  font-family: "Maven Pro", sans-serif;
+}
+.rajdhani {
+  font-family: "Rajdhani", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.rimg {
+  background-image: url("../src/assets/recipeimg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
